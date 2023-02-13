@@ -1,6 +1,6 @@
 import React from 'react'
 import { Blog, Footer, Header, Hero, Packages } from './components'
-import './App.css'
+import './index.css'
 const App = () => {
   return (
     <div className='App'>
