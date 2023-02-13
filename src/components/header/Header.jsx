@@ -1,5 +1,8 @@
 import React from 'react'
-import logo from '../../assets/Logo.svg'
+import logo from '../../assets/logo.svg'
+import bell from '../../assets/bell.svg'
+import searchicon from '../../assets/searchicon.svg'
+import './header.css'
 
 const Header = () => {
   return (
@@ -13,17 +16,19 @@ const Header = () => {
     
       <div>
         <ul className="flex lg:gap-x-6 md:gap-x-4">
-          <li><a href="">Home</a></li>
-          <li><a href="">Profile</a></li>
-          <li><a href="">Packages</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">About Us</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="profile">Profile</a></li>
+          <li><a href="packages">Packages</a></li>
+          <li><a href="Blog">Blog</a></li>
+          <li><a href="about">About Us</a></li>
         </ul>
       </div>
 
       <div className="flex gap-x-6 justify-center items-center md:gap-x-3">
         <div>
-          <i className="fa-solid fa-magnifying-glass"></i>
+        <img src={searchicon} className="searchicon"/>
+        </div>
+        <div>
           <input type="search" placeholder="Search" />
         </div>
         <button className="rounded-sm px-4 bg-green-600 pb-1">
@@ -35,7 +40,7 @@ const Header = () => {
       </div>
 
       <div>
-        <i className="fa-solid fa-bell fa-xl"></i>
+        <img src={bell} alt='bell-icon'/>
       </div>
     </nav>
   </section>
