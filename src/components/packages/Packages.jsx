@@ -1,6 +1,9 @@
 import img1 from '../../assets/img_1.png'
 import img2 from '../../assets/img_2.png'
 import img3 from '../../assets/img_3.png'
+import si from '../../assets/single.svg'
+import co from '../../assets/couple.svg'
+import fa from '../../assets/family.svg'
 import './packages.css'
 
 const Packages = () => {
@@ -32,16 +35,13 @@ const Packages = () => {
             </div>
             <div className="my-4 flex text-[#2D5527] gap-x-4 mx-1">
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user text-xl"></i>
-                <p className="flex flex-col text-xs ml-2">Single</p>
+                <img src={si} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user-group text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Couple</li>
+              <img src={co} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-users text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Family</li>
+                <img src={fa} className='popu-icon'/>
               </div>
             </div>
             <p className="w-10/12 text-[#6F6F6F] text-xs mx-3">
@@ -76,16 +76,13 @@ const Packages = () => {
             </div>
             <div className="my-4 flex text-[#2D5527] gap-x-4 mx-1">
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user text-xl"></i>
-                <p className="flex flex-col text-xs ml-2">Single</p>
+                <img src={si} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user-group text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Couple</li>
+                <img src={co} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-users text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Family</li>
+                <img src={fa} className='popu-icon'/>
               </div>
             </div>
             <p className="w-10/12 text-[#6F6F6F] text-xs mx-3">
@@ -119,16 +116,13 @@ const Packages = () => {
             </div>
             <div className="my-4 flex text-[#2D5527] gap-x-4 mx-1">
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user text-xl"></i>
-                <p className="flex flex-col text-xs ml-2">Single</p>
+                <img src={si} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-user-group text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Couple</li>
+                <img src={co} className='popu-icon'/>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <i className="fa-solid fa-users text-xl"></i>
-                <li className="flex flex-col text-xs ml-2">Family</li>
+                <img src={fa} className='popu-icon'/>
               </div>
             </div>
             <p className="w-10/12 text-[#6F6F6F] text-xs mx-3">
