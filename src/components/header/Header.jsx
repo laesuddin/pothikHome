@@ -9,7 +9,7 @@ const Header = () => {
     <section className='flex justify-around justify-items-center items-center text-slate-200 bg-[#2ED89B] h-16'>
 
     <h2 className="text-2xl font-bold text-[#D7FFC9] md:text-xl">
-      <img src={logo} alt='logo'/>
+      <img src={logo} alt='logo' className='logo'/>
     </h2>
 
     <nav className="flex gap-x-16 justify-items-center items-center md:gap-x-8">
@@ -40,7 +40,7 @@ const Header = () => {
       </div>
 
       <div>
-        <img src={bell} alt='bell-icon'/>
+        <img src={bell} alt='bell-icon' className='bell'/>
       </div>
     </nav>
   </section>

@@ -51,7 +51,7 @@ const Packages = () => {
             </p>
             <div className="my-4 mx-3">
               <p className="text-[#2D5527]">
-                <i className="fa-solid fa-calendar-check"></i><b>&nbsp; 2D 1N</b>
+                <i className="fa-solid fa-calendar-check"></i><b>&nbsp; 3D 2N</b>
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ const Packages = () => {
             </p>
             <div className="my-4 mx-3">
               <p className="text-[#2D5527]">
-                <i className="fa-solid fa-calendar-check"></i><b>&nbsp; 2D 1N</b>
+                <i className="fa-solid fa-calendar-check"></i><b>&nbsp; 4D 3N</b>
               </p>
             </div>
           </div>
