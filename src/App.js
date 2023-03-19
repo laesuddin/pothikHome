@@ -1,15 +1,17 @@
 import React from 'react'
-import { Blog, Footer, Header, Hero, Packages } from './components'
+import Home from './Home'
+import Admin from './components/admin/Admin'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 const App = () => {
   return (
-    <div className='App'>
-      <Header/>
-      <Hero/>
-      <Packages/>
-      <Blog/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/admin' element={<Admin/>}/>
+        <Route path='/Blog' element={<Admin/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

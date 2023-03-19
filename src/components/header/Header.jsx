@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.svg'
 import bell from '../../assets/bell.svg'
 import searchicon from '../../assets/searchicon.svg'
+import { Link } from 'react-router-dom'
 import './header.css'
 
 const Header = () => {
