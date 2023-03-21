@@ -7,7 +7,7 @@ import './header.css'
 
 const Header = () => {
   return (
-    <section className='flex justify-around justify-items-center items-center text-slate-200 bg-[#2ED89B] h-16'>
+    <section className='flex justify-around justify-items-center items-center text-slate-200 bg-[#2ED89B] h-20'>
 
     <h2 className="text-2xl font-bold text-[#D7FFC9] md:text-xl">
       <img src={logo} alt='logo' className='logo'/>
